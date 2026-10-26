@@ -176,7 +176,7 @@ onMounted(async () => {
   }
 
   try {
-    const res = await axios.get('http://localhost:8080/api/doctors');
+    const res = await axios.get('http://localhost:8081/api/doctors');
     if (res.data.code === 200) {
       doctors.value = res.data.data;
     }
