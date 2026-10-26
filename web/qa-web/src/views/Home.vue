@@ -432,9 +432,9 @@ onMounted(async () => {
     font-size: 16px;
   }
 
-  .statistics {
+ /* .statistics {
     grid-template-columns: 1fr;
-  }
+  }*/
 
   .active-rooms h2 {
     font-size: 28px;
